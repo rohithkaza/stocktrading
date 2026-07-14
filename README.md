@@ -17,9 +17,8 @@ java -version  # Should be 17 or later
 mvn -version   # Ensure Maven is installed
 
 
-Since Firebase credentials are not stored in GitHub, each teammate needs to set up their own firebase-service-account.json file. Its the key used to acess firebase
+Since Firebase credentials are not stored in GitHub, you need to set up your own firebase-service-account.json file. Its the key used to acess firebase
 
-Everyone should be added to the Firebase Project on google but if your not let the backend lead know.
 
 Place it inside: src/main/resources/firebase-service-account.json
 
