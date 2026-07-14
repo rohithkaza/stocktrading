@@ -1,0 +1,12 @@
+/* Footer.css */
+
+.footer {
+    width: 100%;
+    height: 56px;
+    padding: 10px 0px;
+    background-color: #F5F5F5;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,57 @@
+/* Header.css */
+
+.header-container {
+    display: flex;
+    padding: 36px 64px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.header-content {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 181px;
+    align-self: stretch;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex: 1 0 0;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.info-item {
+    position: relative;
+  }
+  
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: -80%;
+    left: 140%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+  
+.info-item:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}

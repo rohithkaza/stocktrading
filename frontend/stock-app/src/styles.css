@@ -1,0 +1,180 @@
+/* Global Styles */
+
+h1 {
+    color: #000;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 150% */
+    margin: 0;
+}
+
+h2 {
+    color: #000;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 160% */
+    margin: 0;
+}
+
+.subheading-1 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    margin: 0;
+}
+
+.subheading-2 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin: 0;
+}
+
+p {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0;
+}
+
+button {
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: var(--Primary-500, #2196F3);
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    margin: 0;
+}
+
+button:hover {
+    background-color: #1976D2;
+    transition: 0.3s ease;
+}
+
+footer {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0;
+}
+
+/* Refresh animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal-content {
+    padding: 30px 40px;
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+    font-family: 'Segoe UI', sans-serif;
+    animation: scaleIn 0.3s ease;
+    border-radius: 19.429px;
+    border: 1.619px solid #F0F3F5;
+    background: #FFF;
+    box-shadow: 0px 12.952px 64.762px 0px rgba(0, 0, 0, 0.02);
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0;
+  }
+  
+  /* Styles for buttons within the modal */
+.modal-content button {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background 0.2s ease; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    justify-content: initial; 
+    align-items: initial; 
+    gap: initial; 
+}
+  
+.modal-content button:first-of-type {
+    background-color: #2196F3;
+    color: white;
+}
+  
+.modal-content button:first-of-type:hover {
+    background-color: #0056b3;
+}
+  
+
+.modal-content button:last-of-type {
+    background-color: #e0e0e0;
+    color: black;
+}
+  
+.modal-content button:last-of-type:hover {
+    background-color: #ccc;
+}
+  .modal-content button:last-of-type:hover {
+    background-color: #ccc; /* Darker gray on hover */
+  }
+
+  .balance-chart-container {
+    margin-bottom: -75px;
+    margin-top: -75px;
+  }

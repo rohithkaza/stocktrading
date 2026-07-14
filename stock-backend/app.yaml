@@ -1,0 +1,6 @@
+runtime: java17
+entrypoint: java -jar out/artifacts/stock_backend_jar/stock-backend.jar
+service: stock-backend
+service_account: sp25-comp413-groupa@rice-comp-539-spring-2022.iam.gserviceaccount.com
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: groupA-key.json

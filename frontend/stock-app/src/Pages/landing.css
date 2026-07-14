@@ -1,0 +1,118 @@
+/* Landing.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first-landing-container {
+    display: flex;
+    padding: 64px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: #F5F5F5;
+}
+  
+.first-landing-content {
+    display: flex;
+    padding: 0px 96px;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+  
+.first-component-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: stretch;
+}
+
+.first-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.second-landing-container {
+    display: flex;
+    padding: 64px 145px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.second-landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.second-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.second-component-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.third-component-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+.third-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+  
+.subheading {
+    color: #2196F3;
+}
+  
+.heading {
+    color: #000;
+}
+  
+.description {
+    color: #808080;
+}
+  
+.first-image-section {
+    width: 660px;
+    align-self: stretch;
+    height: auto;
+}
+
+.stock-image {
+    width: 100%;
+    height: 100%;
+}
+
+.second-image-section {
+    height: 238px;
+    align-self: stretch;
+    background-color: #2196F3;
+}
+  

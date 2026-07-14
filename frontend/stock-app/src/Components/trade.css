@@ -1,0 +1,116 @@
+/* Trade.css */
+/* Used for the buying and selling component */
+
+.trade-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 19.429px;
+    border: 1.619px solid #F0F3F5;
+    background: #FFF;
+    box-shadow: 0px 12.952px 64.762px 0px rgba(0, 0, 0, 0.02);
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.buy-sell-header {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    text-align: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.active-highlight {
+    height: 5px;
+    align-self: stretch;
+    background: #2196F3;
+}
+
+.inactive-highlight {
+    height: 5px;
+    align-self: stretch;
+    background: #E7E7E7;
+}
+
+.trade-content {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.share-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.share-input {
+    display: flex;
+    padding: 16px 24px;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 2px solid #E7E7E7;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.value {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    gap: 8px;
+}
+
+.text-action {
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+}
+
+.text-stretch {
+    flex: 1 0 0;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+}
+
+.text-avail {
+    color: #808080;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+}
+
+.button-stretch {
+    align-self: stretch;
+}

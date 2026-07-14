@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Main-Class: com.stockapp.stock_backend.StockBackendApplication
+Class-Path: spring-boot-3.3.8.jar perfmark-api-0.26.0.jar netty-common-4
+ .1.117.Final.jar protobuf-java-util-3.23.2.jar google-http-client-apach
+ e-v2-1.43.3.jar micrometer-observation-1.13.10.jar jackson-annotations-
+ 2.17.3.jar tomcat-embed-el-10.1.34.jar proto-google-cloud-storage-v2-2.
+ 25.0-alpha.jar opencensus-contrib-grpc-util-0.31.1.jar jakarta.activati
+ on-api-2.1.3.jar proto-google-iam-v1-1.17.1.jar byte-buddy-1.14.19.jar 
+ j2objc-annotations-2.8.jar opencensus-proto-0.2.0.jar google-api-servic
+ es-storage-v1-rev20230617-2.0.0.jar spring-boot-starter-security-3.3.8.
+ jar google-http-client-gson-1.43.3.jar kotlin-stdlib-common-1.9.25.jar 
+ spring-tx-6.1.16.jar netty-codec-4.1.117.Final.jar spring-boot-starter-
+ web-3.3.8.jar spring-boot-autoconfigure-3.3.8.jar google-auth-library-c
+ redentials-1.19.0.jar spring-boot-starter-tomcat-3.3.8.jar httpcore5-h2
+ -5.2.5.jar jbcrypt-0.4.jar google-api-client-2.2.0.jar checker-qual-3.3
+ 3.0.jar google-http-client-appengine-1.43.3.jar spring-data-jpa-3.3.8.j
+ ar proto-google-common-protos-2.22.1.jar opencensus-contrib-http-util-0
+ .31.1.jar okio-3.6.0.jar jackson-databind-2.17.3.jar threetenbp-1.6.8.j
+ ar spring-boot-starter-data-jpa-3.3.8.jar classmate-1.7.0.jar jackson-c
+ ore-2.17.3.jar google-auth-library-oauth2-http-1.19.0.jar jsr305-3.0.2.
+ jar google-cloud-core-grpc-2.21.1.jar antlr4-runtime-4.13.0.jar spring-
+ beans-6.1.16.jar proto-google-cloud-firestore-bundle-v1-3.13.7.jar spri
+ ng-boot-starter-3.3.8.jar google-oauth-client-1.34.1.jar txw2-4.0.5.jar
+  httpcore5-5.2.5.jar grpc-google-cloud-bigtable-v2-2.25.1.jar kotlin-st
+ dlib-1.9.25.jar log4j-api-2.23.1.jar slf4j-api-2.0.16.jar google-api-cl
+ ient-gson-2.2.0.jar netty-handler-4.1.117.Final.jar spring-boot-starter
+ -json-3.3.8.jar commons-codec-1.16.1.jar grpc-auth-1.56.1.jar httpclien
+ t-4.5.14.jar netty-transport-native-unix-common-4.1.117.Final.jar httpc
+ ore-4.4.16.jar hibernate-core-6.5.3.Final.jar jackson-datatype-jsr310-2
+ .17.3.jar opencensus-api-0.31.1.jar httpclient5-5.3.1.jar tomcat-embed-
+ core-10.1.34.jar netty-resolver-4.1.117.Final.jar javax.annotation-api-
+ 1.3.2.jar google-cloud-core-2.21.1.jar gax-httpjson-2.31.1.jar google-c
+ loud-bigtable-2.25.1.jar grpc-rls-1.56.1.jar spring-security-core-6.3.6
+ .jar grpc-google-cloud-storage-v2-2.25.0-alpha.jar jul-to-slf4j-2.0.16.
+ jar hibernate-commons-annotations-6.0.6.Final.jar firebase-admin-9.4.3.
+ jar okio-jvm-3.6.0.jar gax-2.31.1.jar error_prone_annotations-2.18.0.ja
+ r proto-google-cloud-bigtable-admin-v2-2.25.1.jar grpc-alts-1.56.1.jar 
+ spring-boot-starter-logging-3.3.8.jar spring-security-web-6.3.6.jar ani
+ mal-sniffer-annotations-1.23.jar jakarta.annotation-api-2.1.1.jar sprin
+ g-context-6.1.16.jar micrometer-commons-1.13.10.jar spring-expression-6
+ .1.16.jar angus-activation-2.0.2.jar spring-security-crypto-5.4.6.jar g
+ oogle-cloud-firestore-3.13.7.jar kotlin-stdlib-jdk7-1.9.25.jar api-comm
+ on-2.14.1.jar grpc-api-1.56.1.jar listenablefuture-9999.0-empty-to-avoi
+ d-conflict-with-guava.jar google-cloud-core-http-2.21.1.jar okhttp-4.12
+ .0.jar tomcat-embed-websocket-10.1.34.jar spring-aspects-6.1.16.jar jso
+ n-20240303.jar proto-google-cloud-bigtable-v2-2.25.1.jar grpc-services-
+ 1.56.1.jar netty-buffer-4.1.117.Final.jar istack-commons-runtime-4.1.2.
+ jar jackson-datatype-jdk8-2.17.3.jar gax-grpc-2.31.1.jar protobuf-java-
+ 3.23.2.jar grpc-protobuf-1.56.1.jar failureaccess-1.0.1.jar grpc-xds-1.
+ 56.1.jar logback-classic-1.5.16.jar jackson-module-parameter-names-2.17
+ .3.jar netty-transport-4.1.117.Final.jar spring-jcl-6.1.16.jar spring-b
+ oot-starter-jdbc-3.3.8.jar grpc-stub-1.56.1.jar snakeyaml-2.2.jar jakar
+ ta.transaction-api-2.0.1.jar jboss-logging-3.5.3.Final.jar jandex-3.1.2
+ .jar grpc-netty-shaded-1.56.1.jar spring-boot-starter-aop-3.3.8.jar goo
+ gle-http-client-1.43.3.jar annotations-13.0.jar google-cloud-storage-2.
+ 25.0.jar spring-jdbc-6.1.16.jar jaxb-runtime-4.0.5.jar spring-core-6.1.
+ 16.jar log4j-to-slf4j-2.23.1.jar kotlin-stdlib-jdk8-1.9.25.jar netty-co
+ dec-http-4.1.117.Final.jar disruptor-3.4.2.jar jakarta.xml.bind-api-4.0
+ .2.jar gson-2.10.1.jar annotations-4.1.1.4.jar proto-google-cloud-monit
+ oring-v3-3.23.0.jar proto-google-cloud-firestore-v1-3.13.7.jar commons-
+ logging-1.2.jar jakarta.inject-api-2.0.1.jar spring-web-6.1.16.jar cons
+ crypt-openjdk-uber-2.5.2.jar re2j-1.7.jar grpc-protobuf-lite-1.56.1.jar
+  grpc-context-1.56.1.jar lombok-1.18.36.jar jakarta.persistence-api-3.1
+ .0.jar spring-orm-6.1.16.jar gapic-google-cloud-storage-v2-2.25.0-alpha
+ .jar spring-data-commons-3.3.8.jar auto-value-annotations-1.10.2.jar sp
+ ring-aop-6.1.16.jar google-http-client-jackson2-1.43.3.jar jaxb-core-4.
+ 0.5.jar spring-webmvc-6.1.16.jar guava-32.1.1-jre.jar grpc-googleapis-1
+ .56.1.jar google-cloud-monitoring-3.23.0.jar google-cloud-bigtable-stat
+ s-2.25.1.jar spring-security-config-6.3.6.jar HikariCP-5.1.0.jar grpc-g
+ rpclb-1.56.1.jar grpc-core-1.56.1.jar logback-core-1.5.16.jar aspectjwe
+ aver-1.9.22.1.jar
+
