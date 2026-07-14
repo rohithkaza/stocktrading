@@ -1,4 +1,3 @@
-# COMP413-GroupA-Stocks
 # 📈 Stock Investment Backend
 
 The backend is built using:
